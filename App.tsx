@@ -16,7 +16,7 @@ import {
 
 let codePushOptions = {
   checkFrequency: CodePush.CheckFrequency.ON_APP_RESUME,
-  installMode: CodePush.InstallMode.IMMEDIATE, // Ensures the update is installed immediately
+  installMode: CodePush.InstallMode.IMMEDIATE, 
   updateDialog: {
     title: "Update available",
     optionalUpdateMessage:
